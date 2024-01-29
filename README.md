@@ -44,4 +44,4 @@ Si encuentras algún problema o tienes alguna sugerencia, ¡no dudes en abrir un
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
