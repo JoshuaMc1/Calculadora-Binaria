@@ -14,23 +14,22 @@ Esta es una sencilla calculadora desarrollada con React para realizar conversion
 
 1. **Binario a Decimal**: Convierte un número binario a su equivalente decimal.
 2. **Binario a Octal**: Convierte un número binario a su equivalente octal.
+3. **Binario a Hexadecimal**: Convierte un número binario a su equivalente hexadecimal.
 
 ## Uso
 
 1. Ingresa un número binario en el campo proporcionado.
-2. Selecciona la operación deseada (Binario a Decimal o Binario a Octal).
+2. Selecciona la operación deseada (Binario a Decimal, Binario a Octal o Binario a Hexadecimal).
 3. Haz clic en el botón "Convertir".
 4. Se mostrará el resultado de la conversión.
 
 ## Ejemplo
 
-- **Entrada**: 1101101
-- **Operación**: Binario a Decimal
-- **Resultado**: Decimal: 109
-
-- **Entrada**: 1101101
-- **Operación**: Binario a Octal
-- **Resultado**: Octal: 155
+| Entrada | Operación             | Resultado                |
+|---------|-----------------------|--------------------------|
+| 1101101 | Binario a Decimal     | Decimal: 109             |
+| 1101101 | Binario a Octal       | Octal: 155               |
+| 1011    | Binario a Hexadecimal | Hexadecimal: B           |
 
 ## Instalación y Ejecución
 
