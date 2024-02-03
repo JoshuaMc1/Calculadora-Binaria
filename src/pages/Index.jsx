@@ -18,6 +18,9 @@ const Index = () => {
             <Link to="/octal" className="btn btn-secondary w-full">
               Binario a Octal
             </Link>
+            <Link to="/hexadecimal" className="btn btn-secondary w-full">
+              Binario a Hexadecimal
+            </Link>
           </div>
         </div>
       </div>

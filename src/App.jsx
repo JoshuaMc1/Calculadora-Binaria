@@ -5,6 +5,7 @@ import Octal from "./pages/Octal";
 import Page404 from "./pages/errors/Page404";
 import Layout from "./components/Layout";
 import ErrorPage from "./pages/errors/ErrorPage";
+import Hexadecimal from "./pages/Hexadecimal";
 
 function App() {
   const router = createBrowserRouter([
@@ -25,6 +26,11 @@ function App() {
         {
           path: "/octal",
           element: <Octal />,
+          errorElement: <ErrorPage />,
+        },
+        {
+          path: "/hexadecimal",
+          element: <Hexadecimal />,
           errorElement: <ErrorPage />,
         },
         {

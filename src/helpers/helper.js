@@ -20,6 +20,14 @@ const binaryToOctal = (binaryString) => {
     return octalValue;
 };
 
+const binaryToHexadecimal = (binaryString) => {
+    const decimalValue = binaryToDecimal(binaryString);
+
+    const hexadecimalValue = decimalValue.toString(16).toUpperCase();
+
+    return hexadecimalValue;
+}
+
 /**
  * The function checks if a given string is a valid binary number.
  * @param binaryString - The `binaryString` parameter is a string that represents a binary number.
@@ -36,4 +44,4 @@ const isBinary = (binaryString) => {
  * @example
  * import { binaryToDecimal, binaryToOctal, isBinary } from "./helper";
  */
-export { binaryToDecimal, binaryToOctal, isBinary };
+export { binaryToDecimal, binaryToOctal, binaryToHexadecimal, isBinary };
